@@ -16,7 +16,6 @@ const World = () => {
   };
   useEffect(() => {
     getTime();
-
     setInterval(async () => {
       myfun(data[0]);
     }, 1000);
